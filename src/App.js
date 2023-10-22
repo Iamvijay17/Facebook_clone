@@ -47,7 +47,7 @@ function App() {
           <Route path="/mobivideo" element={[<Mob_Nav />, <Mobi_video />]} />
           <Route
             path="/suggestions"
-            element={[<Suggestions />, <Navbar />, <Mob_Nav />]}
+            element={[<Navbar />, <Mob_Nav />, <Suggestions />]}
           />
           <Route
             path="/requests"
@@ -63,20 +63,20 @@ function App() {
           />
           <Route
             path="/notifications"
-            element={[<Notifications />, <Navbar />, <Mob_Nav />]}
+            element={[<Navbar />, <Mob_Nav />, <Notifications />]}
           />
           <Route path="/inbox" element={[<Mob_Nav />, <Navbar />, <Inbox />]} />
           <Route
             path="/mobilemenu"
-            element={[<Mob_Menu />, <Navbar />, <Mob_Nav />]}
+            element={[<Navbar />, <Mob_Nav />, <Mob_Menu />]}
           />
           <Route
             path="/statuscard"
-            element={[<Statuscard />, <Navbar />, <Mob_Nav />]}
+            element={[<Navbar />, <Mob_Nav />, <Statuscard />]}
           />
           <Route
             path="/mobilesearch"
-            element={[<Mob_search />, <Navbar />, <Mob_Nav />]}
+            element={[<Navbar />, <Mob_Nav />, <Mob_search />]}
           />
           <Route path="/findyouraccount" element={[<Find_Your_Account />]} />
           <Route path="/signup" element={[<Sign_up_for_Facebook />]} />
